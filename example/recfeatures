@@ -1,0 +1,130 @@
+<rss version="2.0"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+    <channel>
+
+    <title><![CDATA[UCLA Recreation Features]]></title>
+    <link>http://qa.recreation.ucla.edu/</link>
+    <description></description>
+    <dc:language>en</dc:language>
+    <dc:creator>oyazdanshenas@recreation.ucla.edu</dc:creator>
+    <dc:rights>Copyright 2013</dc:rights>
+    <dc:date>2013-10-23T23:29:52+00:00</dc:date>
+    <admin:generatorAgent rdf:resource="http://expressionengine.com/" />
+
+
+    <item>
+      <title><![CDATA[Veterans Day Weekend Hours]]></title>
+      <link>http://qa.recreation.ucla.edu/jwc</link>
+      <guid>http://qa.recreation.ucla.edu/jwc#When:01:24:09Z</guid>
+
+      <image><![CDATA[]]></image>
+      <description><![CDATA[<p>
+	Here are the John Wooden Center hours for Veterans Day Weekend:</p>
+<p>
+	<em>Saturday, Nov. 9 and &nbsp;Sunday, Nov. 10</em><br />
+	9:00am-5:45pm<br />
+	<em>Monday, Nov. 11, Veterans Day</em><br />
+	9:00am-5:45pm<br />
+	Please note,&nbsp;there will be no entry into the John Wooden Center 45 minutes prior to the posted closing times.</p>
+<p>
+	Visit&nbsp;<strong><a href="http://volunteer.ucla.edu/2013/10/ucla-veterans-week-events/">UCLA Veterans Week Events</a></strong>&nbsp;for activities both on and off campus, and take this opportunity to say &ldquo;thank you&ldquo; to a veteran in our community!&nbsp;</p>]]></description>
+      <dc:subject><![CDATA[Facilities/Hours, Fitwell, Feature,]]></dc:subject>
+      <dc:date>2013-08-07T01:24:09+00:00</dc:date>
+    </item>
+
+    <item>
+      <title><![CDATA[Movember and Men's Health]]></title>
+      <link>http://qa.recreation.ucla.edu/movember</link>
+      <guid>http://qa.recreation.ucla.edu/movember#When:17:12:41Z</guid>
+
+      <image><![CDATA[]]></image>
+      <description><![CDATA[<p>
+	Join us all Movember where we raise awareness for men&#39;s health issues.</p>
+<ul>
+	<li>
+		Movember 12: Learn at Lunch on "Men, Mind, Matter, and Movement", with Dr. Robert Bilder, Professor of Psychiatry and Psychology at</li>
+	<li>
+		UCLA&#39;s Semel Institute for Neuroscience &amp; Human Behavior, 12-1pm, LATC Clubhouse.</li>
+	<li>
+		Movember 20: FREE cholesterol and blood pressure screenings</li>
+	<li>
+		&nbsp;<a href="https://dl.dropboxusercontent.com/u/7215146/mopass13.pdf">FREE UCLA MO REC PASS</a>* from Nov. 18-Nov. 22 that includes access to UCLA Recreation.<br />
+		<em>*New members only. Does not include Pilates Reformer classes.</em></li>
+</ul>
+<p>
+	<a href="https://www.surveymonkey.com/s/N9TDBP2">Register here and learn about men&#39;s health!</a></p>]]></description>
+      <dc:subject><![CDATA[Fitwell, Feature, News Link, Home Slideshow,]]></dc:subject>
+      <dc:date>2013-05-28T17:12:41+00:00</dc:date>
+    </item>
+
+    <item>
+      <title><![CDATA[Maximize Your Rec Workout!]]></title>
+      <link>http://qa.recreation.ucla.edu/gymflow</link>
+      <guid>http://qa.recreation.ucla.edu/gymflow#When:23:29:52Z</guid>
+
+      <image><![CDATA[]]></image>
+      <description><![CDATA[<p>
+	Get realtime &amp; forecasted Rec traffic with our new <a href="http://itunes.apple.com/us/app/gymflow-gym-traffic-check/id590211921?mt=8">GymFlow app</a>!<br />
+	Available now for John Wooden Center, KREC, and all pools.<br />
+	Also includes:</p>
+<ul>
+	<li>
+		Realtime traffic for individual rooms &amp; pools</li>
+	<li>
+		Current facility hours</li>
+	<li>
+		Group Exercise schedules &amp; descriptions</li>
+</ul>
+<p>
+	<a href="http://itunes.apple.com/us/app/gymflow-gym-traffic-check/id590211921?mt=8"><em>Click here to download.</em></a></p>]]></description>
+      <dc:subject><![CDATA[About Us, Feature, News Link, Home Slideshow,]]></dc:subject>
+      <dc:date>2013-10-23T23:29:52+00:00</dc:date>
+    </item>
+
+    <item>
+      <title><![CDATA[]]></title>
+      <link>http://qa.recreation.ucla.edu/groupx</link>
+      <guid>http://qa.recreation.ucla.edu/groupx#When:17:06:47Z</guid>
+
+      <image><![CDATA[]]></image>
+      <description><![CDATA[<p>
+	Click here to view our&nbsp; <a href="http://qa.recreation.ucla.edu/images/UCLACMS/groupxecquarterly.pdf">Group Exercise schedule.</a></p>
+<p>
+	Don&#39;t have a Fitness Pass? Purchase one at Sales &amp; Services in the John Wooden Center (1st floor) and enjoy variety, flexibility and fun with these exciting <a href="http://qa.recreation.ucla.edu/images/UCLACMS/groupexercise_sesssion_2.pdf">Group Exercise classes</a>!</p>]]></description>
+      <dc:subject><![CDATA[Fitwell, Feature, News Link, Quick Link,]]></dc:subject>
+      <dc:date>2013-05-28T17:06:47+00:00</dc:date>
+    </item>
+
+    <item>
+      <title><![CDATA[Increase of  UCLA Students Riding Bikes to Campus]]></title>
+      <link>http://qa.recreation.ucla.edu/bikeshop</link>
+      <guid>http://qa.recreation.ucla.edu/bikeshop#When:23:29:21Z</guid>
+
+      <image><![CDATA[]]></image>
+      <description><![CDATA[<p>
+	The number of bicyclists at UCLA has tripled to 2,400 since 2006, thanks to <a href="http://map.ais.ucla.edu/go/1000945">UCLA Transportation</a> and the&nbsp;<a href="http://qa.recreation.ucla.edu/index.php/bicycling-at-ucla">UCLA Bike Shop</a>.<br />
+	Read the Daily Bruin story <a href="http://dailybruin.com/2013/10/11/ucla-transportation-report-evaluates-progress-made-on-2006-bike-plan/">here</a>.</p>]]></description>
+      <dc:subject><![CDATA[Outdoor Adventures, Feature,]]></dc:subject>
+      <dc:date>2013-08-04T23:29:21+00:00</dc:date>
+    </item>
+
+    <item>
+      <title><![CDATA[]]></title>
+      <link>http://qa.recreation.ucla.edu/kings</link>
+      <guid>http://qa.recreation.ucla.edu/kings#When:17:38:48Z</guid>
+
+      <image><![CDATA[]]></image>
+      <description><![CDATA[<p>
+	Get a break on <a href="http://qa.recreation.ucla.edu/kings" target="_blank">LA Kings tickets</a>! Discounted tickets from 30-51% off. This offer is good for UCLA students, faculty, staff, alumni, UCLA families and friends. New games added for November through March.</p>]]></description>
+      <dc:subject><![CDATA[Events, Feature,]]></dc:subject>
+      <dc:date>2013-05-21T17:38:48+00:00</dc:date>
+    </item>
+
+
+    </channel>
+</rss>

@@ -1,0 +1,25 @@
+CACHE MANIFEST
+# 2014-01-08T20:32:00Z
+
+CACHE:
+assets/img/external-link.png
+assets/img/list-arrow.png
+assets/img/ucla/appicon.png
+assets/img/ucla/header-bg.png
+assets/img/ucla/header.png
+assets/img/ucla/list-arrow-alt.png
+assets/fastclick.js
+assets/jquery.js
+assets/mwf.css
+assets/mwf.js
+assets/site.js
+favicon.ico
+feature_article.html
+features.html
+hours.html
+index.html
+news.html
+news_article.html
+
+NETWORK:
+*

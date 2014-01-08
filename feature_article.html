@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" manifest="manifest.appcache">
+    <head>
+        <title>UCLA Recreation</title>
+        <link rel="stylesheet" href="assets/mwf.css">
+        <script type="text/javascript" src="assets/fastclick.js"></script>
+        <script type="text/javascript" src="assets/mwf.js"></script>
+        <script type="text/javascript" src="assets/jquery.js"></script>
+        <script type="text/javascript" src="assets/site.js"></script>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="assets/img/ucla/appicon.png">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    </head>
+    <body>
+        
+        <header id="header" role="banner">
+            <a href="http://m.ucla.edu"><img src="assets/img/ucla/header.png" alt="UCLA"></a>
+            <span>Recreation</span>
+        </header>
+        
+        <main></main>
+        
+        <a href="features.html" class="button light">Back to Features</a>
+        
+        <footer id="footer"> 
+            <a href="http://www.recreation.ucla.edu">View Full Site</a> 
+            <p>&copy; 2011-14 Regents of the University of California<br> 
+            <p style="font-weight:bold;font-style:italic;margin-top:10px;">Powered by the <span class="external"><a rel="external" class="no-ext-ind" href="http://mwf.ucla.edu" target="_blank">Mobile Web Framework</a></span></p>
+        </footer>
+        
+        <script type="text/javascript">
+(function(){
+    
+    var guid = window.location.hash.substring(1);
+    
+    Site.News.retrieve(Site.Config.endpoint+'/recfeatures', 'Features', {
+        'prefer': 'cache',
+        'success': function(items){
+            var item = items[guid],
+                $create = Site.Util.$create,
+                $main = $('main'),
+                $content = $create('div').addClass('content')
+                                         .append($create('h1').text(item['title']))
+                                         .append($create('div').html(item['description']))
+                                         .appendTo($main);
+                                 
+            if(item['link'] && item['link'].length > 0)
+                $create('div').attr('style', 'text-align:center;')
+                              .append('<strong>For more information...</strong>')
+                              .append('<br>')
+                              .append('<a href="'+item['link']+'">'+item['link']+'</a>')
+                              .appendTo($content);
+        },
+        'error': function(error){
+
+        }
+    })
+})();
+        </script>
+        
+    </body>
+</html>

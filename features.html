@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" manifest="manifest.appcache">
+    <head>
+        <title>UCLA Recreation</title>
+        <link rel="stylesheet" href="assets/mwf.css">
+        <script type="text/javascript" src="assets/fastclick.js"></script>
+        <script type="text/javascript" src="assets/mwf.js"></script>
+        <script type="text/javascript" src="assets/jquery.js"></script>
+        <script type="text/javascript" src="assets/site.js"></script>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="assets/img/ucla/appicon.png">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    </head>
+    <body>
+        
+        <header id="header" role="banner">
+            <a href="http://m.ucla.edu"><img src="assets/img/ucla/header.png" alt="UCLA"></a>
+            <span>Recreation</span>
+        </header>
+        
+        <main></main>
+        
+        <a href="index.html" class="button light">Back to Home</a>
+        
+        <footer id="footer"> 
+            <a href="http://www.recreation.ucla.edu">View Full Site</a> 
+            <p>&copy; 2011-14 Regents of the University of California<br> 
+            <p style="font-weight:bold;font-style:italic;margin-top:10px;">Powered by the <span class="external"><a rel="external" class="no-ext-ind" href="http://mwf.ucla.edu" target="_blank">Mobile Web Framework</a></span></p>
+        </footer>
+        
+        <script type="text/javascript">
+(function(){
+    
+    Site.News.retrieve(Site.Config.endpoint+'/recfeatures', 'Features', {
+        'prefer': 'cache',
+        'success': function(items){
+            var $create = Site.Util.$create,
+                $menu = $create('div').addClass('menu detailed')
+                                         .append($create('h1').text('Features'))
+                                         .appendTo($('main')),
+                $menuList = $create('ul').appendTo($menu);
+
+            $.each(items, function(guid, item){
+                if($.trim(item.title).length == 0)
+                    return;
+                $create('li').append($create('a').attr('href','feature_article.html#'+guid).text(item.title)).appendTo($menuList);
+            })
+
+        },
+        'error': function(error){
+
+        }
+    })
+})();
+        </script>
+        
+    </body>
+</html>
